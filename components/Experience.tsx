@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { HiBriefcase, HiCheckCircle } from "react-icons/hi";
+import { HiBriefcase, HiCheckCircle, HiTrophy } from "react-icons/hi";
 
 const experiences = [
   {
@@ -19,6 +19,20 @@ const experiences = [
       "Participated in Agile development sprints, contributing to feature development and bug fixes for Dell's internal management tools",
       "Conducted comprehensive code reviews and documentation, ensuring adherence to industry best practices and coding standards",
     ],
+    icon: HiBriefcase,
+  },
+  {
+    title: "Competitive Programming Achievement",
+    company: "TCS CodeVita Season 13",
+    period: "2024",
+    location: "Global Competition",
+    description: "Participated in one of the world's largest coding competitions, competing against thousands of programmers globally.",
+    achievements: [
+      "Achieved Global Rank 9368 among participants worldwide, demonstrating strong problem-solving and algorithmic skills",
+      "Successfully solved complex algorithmic challenges under time constraints, showcasing proficiency in data structures and algorithms",
+      "Competed in multiple rounds involving optimization problems, dynamic programming, and advanced computational techniques",
+    ],
+    icon: HiTrophy,
   },
 ];
 
@@ -74,7 +88,7 @@ export default function Experience() {
                   >
                     {/* Icon */}
                     <div className="absolute -left-4 top-8 w-8 h-8 bg-primary-500 rounded-full flex items-center justify-center hidden md:flex">
-                      <HiBriefcase className="w-4 h-4 text-white" />
+                      <exp.icon className="w-4 h-4 text-white" />
                     </div>
 
                     {/* Header */}

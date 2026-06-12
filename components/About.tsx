@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { HiAcademicCap, HiCode, HiBrain, HiChip } from "react-icons/hi";
+import { HiAcademicCap, HiCode, HiBrain, HiChip, HiTrophy } from "react-icons/hi";
 
 const interests = [
   {
@@ -106,6 +106,22 @@ export default function About() {
                     <div className="text-right">
                       <p className="font-semibold text-primary-500">CGPA: 8.78</p>
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Achievements */}
+              <div className="mt-8 pt-8 border-t border-gray-300 dark:border-gray-700">
+                <h4 className="text-xl font-bold mb-4 text-gray-800 dark:text-gray-100">Notable Achievements</h4>
+                <div className="flex items-start space-x-3 bg-primary-500/5 rounded-lg p-4 border-l-4 border-primary-500">
+                  <HiTrophy className="w-6 h-6 text-primary-500 flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                      TCS CodeVita Season 13 - Global Rank 9368
+                    </p>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">
+                      Competed in one of the world's largest coding competitions, demonstrating strong algorithmic problem-solving skills among thousands of global participants.
+                    </p>
                   </div>
                 </div>
               </div>
