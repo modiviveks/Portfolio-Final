@@ -104,7 +104,7 @@ export default function Contact() {
               className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"
             >
               Open to internships, freelance projects, and collaboration opportunities.
-              Let's build something amazing together!
+              Let&apos;s build something amazing together!
             </motion.p>
           </div>
 

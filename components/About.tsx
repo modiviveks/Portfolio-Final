@@ -122,7 +122,7 @@ export default function About() {
                       TCS CodeVita Season 13 - Global Rank 9368
                     </p>
                     <p className="text-gray-600 dark:text-gray-400 text-sm">
-                      Competed in one of the world's largest coding competitions, demonstrating strong algorithmic problem-solving skills among thousands of global participants.
+                      Competed in one of the world&apos;s largest coding competitions, demonstrating strong algorithmic problem-solving skills among thousands of global participants.
                     </p>
                   </div>
                 </div>

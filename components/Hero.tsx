@@ -48,7 +48,7 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex items-center justify-center space-x-2 mb-4">
             <HiLightningBolt className="w-6 h-6 text-primary-500" />
             <p className="text-lg text-gray-600 dark:text-gray-400 font-medium">
-              Hello, I'm
+              Hello, I&apos;m
             </p>
           </motion.div>
 
