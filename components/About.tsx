@@ -3,7 +3,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { HiAcademicCap, HiCode, HiBrain, HiChip, HiTrophy } from "react-icons/hi";
+import { HiAcademicCap, HiCode, HiChip } from "react-icons/hi";
+import { HiTrophy } from "react-icons/hi2";
+import { RiBrainLine as HiBrain } from "react-icons/ri";
 
 const interests = [
   {

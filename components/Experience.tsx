@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { HiBriefcase, HiCheckCircle, HiTrophy } from "react-icons/hi";
+import { HiBriefcase, HiCheckCircle } from "react-icons/hi";
+import { HiTrophy } from "react-icons/hi2";
 
 const experiences = [
   {
